@@ -24,7 +24,7 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
-GIT_REPO_NAME = "TeleBot"
+GIT_REPO_NAME = "Khush Bot"
 UPSTREAM_REPO_URL = "https://github.com/TheUnknownKanger/khushbot"
 
 xxxx = CMD_HNDLR if CMD_HNDLR else "."
