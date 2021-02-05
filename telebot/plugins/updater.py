@@ -25,7 +25,7 @@ requirements_path = path.join(
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 GIT_REPO_NAME = "TeleBot"
-UPSTREAM_REPO_URL = "https://github.com/xditya/TeleBot"
+UPSTREAM_REPO_URL = "https://github.com/TheUnknownKanger/khushbot"
 
 xxxx = CMD_HNDLR if CMD_HNDLR else "."
 
@@ -94,7 +94,7 @@ async def upstream(ups):
             f"**[UPDATER]:**` Looks like you are using your own custom branch ({ac_br}). "
             "in that case, Updater is unable to identify "
             "which branch is to be merged. "
-            "Please checkout the official branch of TeleBot`"
+            "Please checkout the official branch of KhushBot`"
         )
         repo.__del__()
         return
