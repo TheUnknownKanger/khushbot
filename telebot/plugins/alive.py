@@ -1,4 +1,4 @@
-# For @TeleBotHelp
+# For @khushuserbotsupport
 """Check if your userbot is working."""
 import time
 from datetime import datetime
