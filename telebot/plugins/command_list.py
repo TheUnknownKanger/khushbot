@@ -30,7 +30,7 @@ async def install(event):
     r = requests.post(url, data=message.encode("UTF-8")).json()
     url = f"https://del.dog/{r['key']}"
     await tele.edit(
-        f"`All plugins available in` **TeleBot** `can be found` [here]({url})!!"
+        f"`All plugins available in` **KhushBot** `can be found` [here]({url})!!"
     )
 
 
