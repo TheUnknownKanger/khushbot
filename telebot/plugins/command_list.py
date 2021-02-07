@@ -23,7 +23,7 @@ async def install(event):
     o = "\n".join(_o)
     OUTPUT = (
         OUTPUT
-    ) = f"Here is the list of plugins found in 'master' branch of TeleBot.\n{o}\n\nUse .help <cmd_name> to learn how a paticular plugin works.\nConsider joining @TeleBotSupport for help!"
+    ) = f"Here is the list of plugins found in 'master' branch of KhushBot.\n{o}\n\nUse .help <cmd_name> to learn how a paticular plugin works.\nConsider joining @deviluserbot for help!"
     await tele.edit("`Plugins extracted, pasting it...`")
     message = OUTPUT
     url = "https://del.dog/documents"
