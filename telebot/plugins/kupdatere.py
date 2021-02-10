@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 # credits to @AvinashReddy3108
-# Rewritten for TeleBot by @xditya
+# Rewritten for TeleBot by @Khushmeet1 
 
 """
 This module is used for updating TeleBot
