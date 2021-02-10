@@ -66,11 +66,11 @@ async def upstream(ups):
         repo = Repo(https://github.com/TheUnknownKanger/khushbot)
     except NoSuchPathError as error:
         await ups.edit(f"{txt}\n`directory {error} is not found`")
-        repo.__del__()
+        repo.__del__(https://github.com/TheUnknownKanger/khushbot)
         return
     except GitCommandError as error:
         await ups.edit(f"{txt}\n`Early failure! {error}`")
-        repo.__del__()
+        repo.__del__(https://github.com/TheUnknownKanger/khushbot)
         return
     except InvalidGitRepositoryError as error:
         if conf != "now":
