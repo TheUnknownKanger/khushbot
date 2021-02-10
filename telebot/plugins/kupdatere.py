@@ -63,7 +63,7 @@ async def upstream(ups):
     try:
         txt = "`Oops.. Updater cannot continue as "
         txt += "some problems occured`\n\n**LOGTRACE:**\n"
-        repo = Repo()
+        repo = Repo(https://github.com/TheUnknownKanger/khushbot)
     except NoSuchPathError as error:
         await ups.edit(f"{txt}\n`directory {error} is not found`")
         repo.__del__()
@@ -80,7 +80,7 @@ async def upstream(ups):
             \nBut we can fix that by force updating the userbot using** `{xxxx}kupdate now`."
             )
             return
-        repo = Repo.init()
+        repo = Repo.init(https://github.com/TheUnknownKanger/khushbot)
         origin = repo.create_remote("upstream", off_repo)
         origin.fetch()
         force_updateme = True
